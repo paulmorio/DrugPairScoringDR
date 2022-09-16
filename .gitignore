@@ -1,3 +1,10 @@
+# Files and data to ignore
+data/drugcombdb_gexf
+data/drugcomb_gexf
+data/twosides_gexf
+data/drugbankddi_gexf
+data/OncoPolyPharmacology_gexf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

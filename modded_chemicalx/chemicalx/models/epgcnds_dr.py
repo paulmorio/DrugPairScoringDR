@@ -1,4 +1,4 @@
-"""An implementation of the EPGCN-DS model."""
+"""An implementation of the EPGCN-DS-DR model."""
 
 import torch
 from torch import nn

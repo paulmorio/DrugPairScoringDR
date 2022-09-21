@@ -1,5 +1,8 @@
 # DrugPairScoringDR
 
+[arxiv-image]: https://img.shields.io/badge/ArXiv-2209.09383-orange.svg
+[arxiv-url]: https://arxiv.org/abs/2209.09383
+
 This is the source code repository for "Distributed representations of graphs for drug pair scoring". It also contains the distributed representations of molecular graphs learned over the drug sets in DrugCombDB, DrugComb, DrugbankDDI and TwoSides datasets.
 
 ## Using our trained distributed representations of graphs

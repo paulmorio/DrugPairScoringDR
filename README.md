@@ -4,8 +4,6 @@ This is the source code repository for "Distributed representations of graphs fo
 
 ## Using our trained distributed representations of graphs
 
-**Please note that this is a subset of the full release due to size constraints in supplementary material submission, but any of the embeddings can be trained using submitted code**
-
 You can find our learned distributed representations in `data/embeddings`. Each of the embeddings are saved in `.json` files which contain a mapping from the drug to its distributed representation within the set. 
 
 Our naming convention is: `<Dataset>_<SubstructurePattern>_<EmbeddingDimensionality>_<NumEpochsTrained>.json`

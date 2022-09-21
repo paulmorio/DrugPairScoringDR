@@ -15,9 +15,9 @@ Our naming convention is: `<Dataset>_<SubstructurePattern>_<EmbeddingDimensional
 
 ## Prerequisites and installation
 
-There are several prerequisites to using our code, chief amongst them a modified version of ChemicalX called `modded_chemicalx` we include in this repository (all credit to original ChemicalX authors). This contains our DR augmented model implementations and augmented data loaders utilising the distributed representations. We include concrete installation instructions below. References and citation suggestions for these packages (and our project) can be found below. 
+There are several prerequisites to using our code, chief amongst them a modified version of [ChemicalX](https://github.com/AstraZeneca/chemicalx) called `modded_chemicalx` we include in this repository (all credit to original ChemicalX authors). This contains our DR augmented model implementations and augmented data loaders utilising the distributed representations and also reflects changes required due to changes in the APIs of the TorchDrug dependency. We include concrete installation instructions below.  
 
-The ChemicalX and TorchDrug v.0.1.2 require Python 3.8 which we recommend being installed in a conda virtual environment
+We recommend installing packages in a conda virtual environment
 
 ```bash
 conda create -n drvenv python=3.8
